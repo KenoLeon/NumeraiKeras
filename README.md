@@ -1,4 +1,4 @@
-# NumeraiKeras
+# NumeraiKeras 🧠
 
 **Keras-Tensorflow boilerplate starter for the [Numerai][d3d768b1]
  competition.**
@@ -16,7 +16,7 @@ I wanted to use [Keras][12781e27] for the Numerai tournament and couldn't find a
 Out of the box this NN/ Model is not very good, you need to tune parameters, add your preferred validation, tweak the model, etc, etc  see the following section...   
 
 
-## Contribute - ToDo - Upgrades:
+## Contribute - To Do - Upgrades:
 
 Open an issue or pm on the Numerai chat if you want to add your contributions.
 
@@ -35,3 +35,8 @@ It would really be cool to have a community model to go against example_predicti
 ## Coming soon
 
 Medium post.
+
+## Feeling generous ?
+Toss a 💰to your 🧙‍er !
+
+**NMR/ETH:** 0xD2468b070e27138525ae347410A5cFFcEDc3d0E7
