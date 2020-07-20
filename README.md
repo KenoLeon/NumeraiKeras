@@ -12,6 +12,17 @@ I wanted to use [Keras][12781e27] for the Numerai tournament and couldn't find a
 
   [12781e27]: https://keras.io/ "Keras.io"
 
+
+## Medium Article :
+
+  If you are new to the competition and/or want a better explanation of the code see theis companion post:
+
+  [Practical Keras: Simple regression for the Numerai Tournament ][a0f97d78]
+
+
+  [a0f97d78]: https://medium.com/@k3no/practical-keras-59c9d18ef6cf "Medium Article"
+
+
 ## Caveat Emptor (Buyer Beware)
 Out of the box this NN/ Model is not very good, you need to tune parameters, add your preferred validation, tweak the model, etc, etc  see the following section...   
 
@@ -32,9 +43,6 @@ Ideally each new contribution is a standalone script with a new feature, some mi
 It would really be cool to have a community model to go against example_predictions, just saying...
 
 
-## Coming soon
-
-Medium post.
 
 ## Feeling generous ?
 Toss a 💰to your 🧙‍er !
