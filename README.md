@@ -31,7 +31,10 @@ There's a separate script to calculate Validation Correlation ([val_corr.py][cf7
   [cf7ec790]: https://github.com/KenoLeon/NumeraiKeras/blob/master/val_corr.py "validation correlation"
 
 
-And some metrics I haven't tried contributed by:
+And some metrics ([metrics.py][3f432b7b]) contributed by [parmarsuraj99][790a9a80]:
+
+  [3f432b7b]: https://github.com/KenoLeon/NumeraiKeras/blob/master/metrics.py "metrics.py"
+  [790a9a80]: https://github.com/parmarsuraj99 "parmarsuraj99"
 
 
 ## Caveat Emptor (Buyer Beware)
