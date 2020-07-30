@@ -12,6 +12,10 @@ def score(df):
     targets = df[TARGET_NAME]
     return np.corrcoef(targets, pct_ranks)[0, 1]
 
+# Payout is just the score cliped at +/-25%
+def payout(scores):
+    return scores.clip(lower=-0.25, upper=0.25)
+
 
 # CONSTANTS
 ROUND = '221'
@@ -40,3 +44,7 @@ validation_correlations = validation_data.groupby("era").apply(score)
 
 # This is the validation correlation from the site:
 print(validation_correlations.mean())
+
+print(f"On validation the correlation has mean {validation_correlations.mean()} and "
+          f"std {validation_correlations.std()}")
+print(f"On validation the average per-era payout is {payout(validation_correlations).mean()}")
